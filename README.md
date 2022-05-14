@@ -18,4 +18,4 @@ Desafio é criar uma página o mais fiel possível à imagem de referência util
 - Só pode anexar imagens no projeto (podem ser recortadas da própria referência)
 - Responsivo
 
-Pode fazer o desafio no seu tempo, quando terminar, abra uma issue e contate-me em (Insta/Usakimodoki)[https://www.instagram.com/usakimodoki/?hl=pt-br] avisando que terminou o desafio, então faremos o code review em uma call para mentorá-lo sobre seu desempenho e próximos passos.
+Pode fazer o desafio no seu tempo, quando terminar, abra uma issue e contate-me em [Insta/Usakimodoki](https://www.instagram.com/usakimodoki/?hl=pt-br) avisando que terminou o desafio, então faremos o code review em uma call para mentorá-lo sobre seu desempenho e próximos passos.
