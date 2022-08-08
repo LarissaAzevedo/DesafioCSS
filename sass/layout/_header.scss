@@ -1,0 +1,97 @@
+.header {
+  background-image: url(/img/home-slider-1.jpg);
+  height: 100vh;
+  background-size: cover;
+
+
+  &__logo-text {
+    position: absolute; 
+    top: 3rem;
+    left: 4rem;
+  }
+
+  &__menu-navbar {
+    position: absolute;
+    top: 4.9rem;
+    right: 27rem;
+
+    ul {
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      
+      li {
+        float: left;
+        font-size: 13px;
+        font-weight: bold;
+        color: #303030;
+        letter-spacing: 0.4rem;
+        transition: .3s;
+
+        &:not(:last-child) {
+          margin-right: 6rem;
+        }
+
+        &:hover {
+          color: #b67453;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &__social-links {
+    position: absolute;
+    top: 4.8rem;
+    right: 16rem;
+    font-size: 1.3rem;
+
+    i {
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  &__market-icon {
+    img {
+      position: absolute;
+      top: 4.5rem;
+      right: 10rem;
+      font-size: 0.3rem;
+      height: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    // background-color: red;
+    width: 40%;
+    height: 50%;
+
+    font-family: "Playfair Display";
+
+    img {
+      margin-bottom: -4rem;
+    }
+
+    h1 {
+      font-size: 7.71rem;
+    }
+    h2 {
+      font-size: 7.81rem;
+      margin-top: -4rem;
+    }
+
+    p  {
+      margin-top: 3rem;
+      font-size: 14px;
+      line-height: 30px;
+      color: rgb(177, 169, 165);
+    }
+  }
+}
