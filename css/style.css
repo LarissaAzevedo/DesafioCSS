@@ -14,6 +14,41 @@ body {
 ol, ul {
   list-style: none; }
 
+body {
+  font-family: 'Playfair Display', sans-serif; }
+
+.header {
+  font-size: 1.3rem; }
+  .header__menu-navbar > ul {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; }
+    .header__menu-navbar > ul li {
+      font-weight: bold;
+      letter-spacing: 0.4rem; }
+  .header__title {
+    font-family: "Playfair Display"; }
+    .header__title h1 {
+      font-size: 7.71rem; }
+    .header__title h2 {
+      font-size: 7.81rem; }
+    .header__title p {
+      font-size: 1.4rem;
+      line-height: 3rem; }
+
+.description-itens > .description-itens__composition h4 {
+  font-size: 2.6rem;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: 400; }
+
+.description-itens > .description-itens__composition p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center; }
+
 .description-itens {
   display: flex;
   max-width: 133rem;
@@ -28,26 +63,16 @@ ol, ul {
     margin: 0 2rem; }
     .description-itens__composition h4 {
       color: #222222;
-      font-family: 'Playfair Display', sans-serif;
-      font-size: 26px;
-      line-height: 36px;
-      font-style: normal;
-      font-weight: 400;
       margin-top: 2rem;
       padding: 0 15px; }
     .description-itens__composition p {
       color: #8d8787;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      line-height: 24px;
-      font-style: normal;
-      font-weight: 500;
-      text-align: center;
       margin-top: 1.5rem;
       padding: 0 1rem; }
 
 .header {
   background-image: url(/img/home-slider-1.jpg);
+  background-attachment: fixed;
   height: 100vh;
   background-size: cover; }
   .header__logo-text {
@@ -58,26 +83,19 @@ ol, ul {
     position: absolute;
     top: 4.9rem;
     right: 27rem; }
-    .header__menu-navbar ul {
-      text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif; }
-      .header__menu-navbar ul li {
-        float: left;
-        font-size: 13px;
-        font-weight: bold;
-        color: #303030;
-        letter-spacing: 0.4rem;
-        transition: .3s; }
-        .header__menu-navbar ul li:not(:last-child) {
-          margin-right: 6rem; }
-        .header__menu-navbar ul li:hover {
-          color: #b67453;
-          cursor: pointer; }
+    .header__menu-navbar ul > li {
+      float: left;
+      color: #303030;
+      transition: .3s; }
+      .header__menu-navbar ul > li:not(:last-child) {
+        margin-right: 6rem; }
+      .header__menu-navbar ul > li:hover {
+        color: #b67453;
+        cursor: pointer; }
   .header__social-links {
     position: absolute;
     top: 4.8rem;
-    right: 16rem;
-    font-size: 1.3rem; }
+    right: 16rem; }
     .header__social-links i {
       cursor: pointer; }
       .header__social-links i:not(:last-child) {
@@ -86,7 +104,6 @@ ol, ul {
     position: absolute;
     top: 4.5rem;
     right: 10rem;
-    font-size: 0.3rem;
     height: 2rem;
     cursor: pointer; }
   .header__title {
@@ -94,17 +111,11 @@ ol, ul {
     top: 23%;
     left: 20%;
     width: 40%;
-    height: 50%;
-    font-family: "Playfair Display"; }
+    height: 50%; }
     .header__title img {
       margin-bottom: -4rem; }
-    .header__title h1 {
-      font-size: 7.71rem; }
     .header__title h2 {
-      font-size: 7.81rem;
       margin-top: -4rem; }
     .header__title p {
       margin-top: 3rem;
-      font-size: 14px;
-      line-height: 30px;
       color: #b1a9a5; }
