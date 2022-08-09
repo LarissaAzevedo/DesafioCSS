@@ -38,7 +38,7 @@ body {
 
 .description-itens > .description-itens__composition h4 {
   font-size: 2.6rem;
-  line-height: 36px;
+  line-height: 3.6rem;
   font-style: normal;
   font-weight: 400; }
 
@@ -52,30 +52,49 @@ body {
 
 .newsletter .newsletter__boxnews h2 {
   font-family: 'Playfair Display', sans-serif;
-  font-size: 48px;
-  line-height: 58px;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-transform: none;
   text-align: center; }
 
 .newsletter .newsletter__boxnews input {
   font-family: Montserrat;
   font-style: normal;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 300;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   text-transform: none; }
 
 .newsletter .newsletter__boxnews button {
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
-  letter-spacing: 3.3px;
+  letter-spacing: 0.3rem;
   text-transform: uppercase;
-  line-height: 59px; }
+  line-height: 5.9rem; }
+
+.products > .products__title-products h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 4.8rem;
+  line-height: 5.8rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: center; }
+
+.products > .products__title-products > p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none; }
 
 .description-itens {
   display: flex;
@@ -195,3 +214,16 @@ body {
       height: 59px;
       padding: 0 57px;
       margin-top: 5rem; }
+
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+  .products__title-products h2 {
+    padding-top: 14rem;
+    padding-bottom: 3rem;
+    color: #222222; }
+  .products__title-products p {
+    color: #817d7d; }
