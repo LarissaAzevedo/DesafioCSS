@@ -50,3 +50,32 @@ body {
     text-align: center;
   }
 }
+// Newsletter
+.newsletter .newsletter__boxnews  h2 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 48px;
+  line-height: 58px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+  text-align: center;
+
+}
+.newsletter .newsletter__boxnews input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+.newsletter .newsletter__boxnews button {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 3.3px;
+  text-transform: uppercase;
+  line-height: 59px;
+}

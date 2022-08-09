@@ -1,0 +1,57 @@
+.newsletter {
+  // width: 159rem;
+  height: 50rem;
+  background-image: url(/img/home-parallax-1-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  &__boxnews {
+    width: 70rem;
+    height: 20rem;
+
+    h2 {
+      color: $color-white;
+      padding-top: 4rem;
+    }
+    input {
+      width: 46rem;
+      height: 5.9rem;
+      background-color: $color-white-light-1;
+      border-color: $color-white;
+      color: $color-white;
+      border-width: 1px;
+      border-style: solid;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      float: left;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 26px;
+      margin-left: 1rem;
+      margin-top: 5rem;
+    }
+
+    button {
+      background-color: $color-white-light-2;
+      border-color: $color-white-light-1;
+      border-width: 0;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      color: $color-black-light-2;
+      height: 59px;
+      padding: 0 57px;
+      margin-top: 5rem;
+    }
+  }
+}

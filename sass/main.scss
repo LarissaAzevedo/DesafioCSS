@@ -6,3 +6,71 @@
 @import "components/composition";
 
 @import "layout/header";
+@import "layout/newsletter";
+
+// .gallery{
+//   background-color: #f9f4ee;
+
+
+//   &__titulo-of-galery {
+//     display: flex;
+//     justify-content: center;
+//     // background-color: red;
+//     margin: 10rem 0 5rem 0;
+
+//     hgroup {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       // background-color: blue;
+//       width: 80rem;
+//       height: 20rem;
+
+//       margin-top: 10rem;
+
+//       h2 {
+//         font-family: 'Playfair Display', sans-serif;
+//         font-size: 4.8rem;
+//         line-height: 5.8rem;
+//         font-style: normal;
+//         font-weight: 400;
+//         letter-spacing: 0;
+//         text-transform: none;
+        
+//         margin-bottom: 3rem;
+//       }
+
+//       h6 {
+//         text-align: center;
+//         color: #817d7d;
+//         font-family: 'Montserrat', sans-serif;
+//         font-size: 17px;
+//         line-height: 30px;
+//         font-style: normal;
+//         font-weight: 500;
+//         letter-spacing: 0px;
+//         text-transform: none;
+//       }
+//     }
+//   }
+
+//   &__photos {
+//     display: flex;
+//     &--size {
+//       width: 50px;
+//       background-color: red;
+//     }
+//   }
+  // &__photos {
+  //   width: 60remjj
+    
+
+  //   img {
+  //     width: 60px;
+  //   }
+
+  //   display: flex;
+  //   background-color: red;
+  // }
+// }
