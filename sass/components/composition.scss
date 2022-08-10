@@ -1,8 +1,9 @@
 .description-itens {
   display: flex;
-  max-width: 133rem;
-  margin: 0 auto;
+  // width: 133rem;
+  // margin: 0 auto;
 
+  // background-color: red;
   padding: 10rem 3rem;
 
   justify-content: space-between;
@@ -23,7 +24,8 @@
     p {
       color: $color-grey-light-1;
       margin-top: 1.5rem;
-      padding: 0 1rem;
+      padding: 0 6rem;
+      text-align: center;
     }
   }
 }

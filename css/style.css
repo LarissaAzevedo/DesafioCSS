@@ -98,8 +98,6 @@ body {
 
 .description-itens {
   display: flex;
-  max-width: 133rem;
-  margin: 0 auto;
   padding: 10rem 3rem;
   justify-content: space-between; }
   .description-itens__composition {
@@ -115,13 +113,17 @@ body {
     .description-itens__composition p {
       color: #8d8787;
       margin-top: 1.5rem;
-      padding: 0 1rem; }
+      padding: 0 6rem;
+      text-align: center; }
 
 .header {
   background-image: url(/img/home-slider-1.jpg);
   background-attachment: fixed;
+  min-width: 100%;
   height: 100vh;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
   .header__logo-text {
     position: absolute;
     top: 3rem;
@@ -214,16 +216,3 @@ body {
       height: 59px;
       padding: 0 57px;
       margin-top: 5rem; }
-
-.products {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
-  .products__title-products h2 {
-    padding-top: 14rem;
-    padding-bottom: 3rem;
-    color: #222222; }
-  .products__title-products p {
-    color: #817d7d; }
