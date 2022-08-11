@@ -1,0 +1,39 @@
+.boxfooter {
+  background-color: #faf4ed;
+  // width: 90%;
+  // margin: 0 auto;
+
+  height: 60vh;
+
+  .footer{
+    // width: 90%;
+    // align-items: center;
+    // width: 27rem;
+    // height: 17rem;
+    // background-color: orange;
+    display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+    justify-content: space-around;
+    // align-content: center;
+    // align-items: center;
+    text-align: center;
+    
+    &__information {
+      margin: 10rem 0;
+      width: 27rem;
+      height: 23rem;
+      
+      h5 {
+        margin: 0 0 22px;
+      }
+
+      li {
+        padding: 0 0 17px;
+        a {
+          color: #817d7d !important;
+        }
+      }
+    }
+  }
+}
