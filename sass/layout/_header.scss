@@ -20,7 +20,7 @@
 
     ul > li {
       float: left;
-      color: $color-black-light-1;
+      color: var(--color-black-light-1);
       transition: .3s;
 
       &:not(:last-child) {
@@ -28,7 +28,7 @@
       }
 
       &:hover {
-        color: $color-brown-light;
+        color: var(--color-brown-light);
         cursor: pointer;
       }
     }

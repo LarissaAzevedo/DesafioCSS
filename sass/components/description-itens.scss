@@ -1,0 +1,25 @@
+.description-itens {
+  // display: flex;
+  // padding: 10rem 11rem;
+
+
+  justify-content: space-between;
+  &__product {
+    margin-right: 2rem;
+    h4 {
+      color: var(--color-grey-light-2);
+      margin-top: 2rem;
+      padding: 0 15px;
+    }
+
+    p {
+      color: var(--color-grey-light-1);
+      margin-top: 1.5rem;
+      padding: 0 6rem;
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -17,15 +17,15 @@
     height: 20rem;
 
     h2 {
-      color: $color-white;
+      color: var(--color-white);
       padding-top: 4rem;
     }
     input {
       width: 46rem;
       height: 5.9rem;
-      background-color: $color-white-light-1;
-      border-color: $color-white;
-      color: $color-white;
+      background-color: var(--color-white-light-1);
+      border-color: var(--color-white);
+      color: var(--color-white);
       border-width: 1px;
       border-style: solid;
       border-top-left-radius: 0px;
@@ -41,14 +41,14 @@
     }
 
     button {
-      background-color: $color-white-light-2;
-      border-color: $color-white-light-1;
+      background-color: var(--color-white-light-2);
+      border-color: var(--color-white-light-1);
       border-width: 0;
       border-top-left-radius: 0px;
       border-top-right-radius: 0px;
       border-bottom-right-radius: 0px;
       border-bottom-left-radius: 0px;
-      color: $color-black-light-2;
+      color: var(--color-black-light-2);
       height: 59px;
       padding: 0 57px;
       margin-top: 5rem;

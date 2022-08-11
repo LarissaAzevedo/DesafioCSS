@@ -16,13 +16,13 @@
     margin: 0 2rem;
 
     h4 {
-      color: $color-black-light-2;
+      color: var(--color-black-light-2);
       margin-top: 2rem;
       padding: 0 15px;
     }
     
     p {
-      color: $color-grey-light-1;
+      color: var(--color-grey-light-1);
       margin-top: 1.5rem;
       padding: 0 6rem;
       text-align: center;
