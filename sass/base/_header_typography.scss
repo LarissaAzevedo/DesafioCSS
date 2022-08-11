@@ -1,0 +1,30 @@
+// header
+.header {
+  font-size: 1.3rem;
+  &__menu-navbar > ul {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+    li {
+      // font-size: 1.3rem;
+      font-weight: bold;
+      letter-spacing: 0.4rem;
+    }
+  }
+  &__title {
+    font-family: "Playfair Display";
+    h1 {
+      font-size: 7.71rem; 
+    }
+
+    h2 {
+      font-size: 7.81rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      line-height: 3rem;
+    }
+  }
+}
+

@@ -1,0 +1,28 @@
+// boxfooter
+.boxfooter .footer__information {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  letter-spacing: 3.3px;
+  line-height: 23px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000000;
+  font-style: normal;
+
+  h5  {
+    text-transform: uppercase;
+  }
+  li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

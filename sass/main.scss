@@ -1,7 +1,12 @@
 @import "abstract/variables";
 
 @import "base/base";
-@import "base/typography";
+@import "base/description-itens_typography";
+@import "base/header_typography";
+@import "base/footer_typography";
+@import "base/newsletter_typography";
+@import "base/products_typography";
+@import "base/body_typography";
 
 @import "components/composition";
 @import "components/description-itens";
