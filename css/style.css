@@ -407,16 +407,19 @@ body {
     color: var(--color-grey-light-2); }
 
 .boxfooter {
-  background-color: #faf4ed;
-  height: 60vh; }
+  background-color: #faf4ed; }
   .boxfooter .footer {
     display: flex;
     justify-content: space-around;
     text-align: center; }
+    @media only screen and (max-width: 50em) {
+      .boxfooter .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
     .boxfooter .footer__information {
       margin: 10rem 0;
-      width: 27rem;
-      height: 23rem; }
+      width: 27rem; }
       .boxfooter .footer__information h5 {
         margin: 0 0 22px; }
       .boxfooter .footer__information li {
