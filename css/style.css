@@ -28,7 +28,7 @@ html {
       font-size: 45%; } }
   @media only screen and (max-width: 37.5em) {
     html {
-      font-size: 35%; } }
+      font-size: 40%; } }
 
 body {
   box-sizing: border-box;
@@ -146,12 +146,53 @@ body {
   display: flex;
   padding: 10rem 3rem;
   justify-content: space-between; }
+  @media only screen and (max-width: 75em) {
+    .description-itens {
+      padding-left: 18rem;
+      padding-right: 18rem;
+      flex-wrap: rap; } }
+  @media only screen and (max-width: 75em) {
+    .description-itens {
+      left: 2rem;
+      flex-wrap: wrap; } }
+  @media only screen and (max-width: 62.5em) {
+    .description-itens {
+      width: 29rem;
+      width: auto;
+      justify-content: center; } }
+  @media only screen and (max-width: 56.2em) {
+    .description-itens {
+      width: 28rem;
+      width: auto;
+      justify-content: space-around; } }
+  @media only screen and (max-width: 50em) {
+    .description-itens {
+      width: auto;
+      align-items: center;
+      justify-content: center; } }
   .description-itens__composition {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 2rem; }
+    @media only screen and (max-width: 75em) {
+      .description-itens__composition {
+        width: 33rem;
+        margin-bottom: 7rem; } }
+    @media only screen and (max-width: 62.5em) {
+      .description-itens__composition {
+        width: 28rem;
+        margin-bottom: 7rem; } }
+    @media only screen and (max-width: 56.2em) {
+      .description-itens__composition {
+        margin-bottom: 7rem; } }
+    @media only screen and (max-width: 50em) {
+      .description-itens__composition {
+        width: 39rem;
+        margin-bottom: 7rem; }
+        .description-itens__composition:not(:last-child) {
+          margin-bottom: 6rem; } }
     .description-itens__composition h4 {
       color: var(--color-black-light-2);
       margin-top: 2rem;
@@ -159,23 +200,17 @@ body {
     .description-itens__composition p {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
-      padding: 0 6rem;
+      padding: 0 2rem;
       text-align: center; }
-      @media only screen and (max-width: 87.5em) {
+      @media only screen and (max-width: 75em) {
         .description-itens__composition p {
           padding: 0 2rem; } }
+      @media only screen and (max-width: 56.2em) {
+        .description-itens__composition p {
+          padding: 0 0; } }
     .description-itens__composition img {
       max-width: 100%;
       height: auto; }
-      @media only screen and (max-width: 62.5em) {
-        .description-itens__composition img {
-          height: 1rem; } }
-
-.description-itens {
-  justify-content: space-between; }
-  @media only screen and (max-width: 75em) {
-    .description-itens {
-      left: 2rem; } }
   .description-itens__product {
     margin-right: 2rem; }
     .description-itens__product h4 {
@@ -189,9 +224,6 @@ body {
       @media only screen and (max-width: 75em) {
         .description-itens__product p {
           height: 110rem; } }
-  .description-itens img {
-    max-width: 100%;
-    height: auto; }
 
 .header {
   background-image: url(/img/home-slider-1.jpg);
@@ -288,7 +320,7 @@ body {
         width: 63%; } }
     @media only screen and (max-width: 50em) {
       .header__title {
-        width: 70%; } }
+        width: 80%; } }
     .header__title img {
       margin-bottom: -4rem; }
       @media only screen and (max-width: 87.5em) {

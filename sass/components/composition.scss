@@ -4,10 +4,36 @@
   // margin: 0 auto;
 
 
-  // background-color: red;
   padding: 10rem 3rem;
-
   justify-content: space-between;
+
+  @media only screen and (max-width: 75em){
+    padding-left: 18rem;
+    padding-right: 18rem;
+    flex-wrap: rap;
+    // color: red;
+    // width: 33rem;
+  }
+  @media only screen and (max-width: 75em){ //1200PX
+    left: 2rem;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 62.5em){ // até 1000PX
+    width: 29rem;
+    width: auto;
+    justify-content: center;
+  }
+  @media only screen and (max-width: 56.2em){ // até 900PX
+    width: 28rem;
+    width: auto;
+    justify-content: space-around;
+  }
+  @media only screen and (max-width: 50em){ // 800PX
+    width: auto;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
   &__composition  {
     display: flex;
@@ -15,6 +41,29 @@
     justify-content: center;
     align-items: center;
     margin: 0 2rem;
+    @media only screen and (max-width: 75em){
+      width: 33rem;
+      margin-bottom: 7rem;
+    }
+    @media only screen and (max-width: 62.5em){ // até 1000PX
+      width: 28rem;
+      margin-bottom: 7rem;
+    }
+    @media only screen and (max-width: 56.2em){ // até 900PX
+      // width: 20rem;
+      margin-bottom: 7rem;
+    }
+    @media only screen and (max-width: 50em){ // até 800PX
+      width: 39rem;
+      margin-bottom: 7rem;
+
+      &:not(:last-child) {
+        margin-bottom: 6rem;
+      }
+    }
+    // @media only screen and (max-width: 56.2em){
+    //   width: 27rem;
+    // }
 
     h4 {
       color: var(--color-black-light-2);
@@ -25,21 +74,47 @@
     p {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
-      padding: 0 6rem;
+      padding: 0 2rem;
       text-align: center;
-      @media only screen and (max-width: $bp-big-largest){
+      @media only screen and (max-width: 75em){
         padding: 0 2rem;
       }
-      @media only screen and (max-width: ){
-        // right: 9rem;
+      @media only screen and (max-width: 56.2em){ // até 900PX
+        padding: 0 0;
       }
+      // @media only screen and (max-width: ){
+        //   // right: 9rem;
+      // }
     }
     img {
       max-width: 100%;
       height: auto;
-      @media only screen and (max-width: $bp-large){
-        height: 1rem;
+      // @media only screen and (max-width: 50em){
+      //   height: 1rem;
+      // }
+    }
+  }
+
+  &__product {
+    margin-right: 2rem;
+    h4 {
+      color: var(--color-grey-light-2);
+      margin-top: 2rem;
+      padding: 0 15px;
+    }
+
+    p {
+      color: var(--color-grey-light-1);
+      margin-top: 1.5rem;
+      padding: 0 6rem;
+      @media only screen and (max-width: 75em){
+        height: 110rem;
       }
     }
   }
+  // img {
+  //   max-width: 100%;
+  //   height: auto;
+  // }
+
 }
