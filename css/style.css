@@ -1,5 +1,7 @@
 :root {
   --color-brown-light: #b67453;
+  --color-brown-light-1: #7d4d36;
+  --color-brown-light-2: #c3673c;
   --color-black-light-1: #303030;
   --color-black-light-2: #222222;
   --color-white-light-1: rgba(255, 255, 255, 0);
@@ -333,8 +335,8 @@ body {
       color: #b1a9a5; }
 
 .newsletter {
-  height: 50rem;
-  background-image: url(/img/home-parallax-1-1.jpg);
+  height: 61rem;
+  background-image: linear-gradient(to right bottom, rgba(125, 77, 54, 0.3), rgba(195, 103, 60, 0.3)), url(/img/home-parallax-1-1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -344,17 +346,19 @@ body {
   align-items: center;
   align-content: center; }
   .newsletter__boxnews {
-    width: 70rem;
-    height: 20rem; }
-    @media only screen and (max-width: 87.5em) {
-      .newsletter__boxnews {
-        width: 72rem; } }
+    height: 56px; }
     .newsletter__boxnews h2 {
       color: var(--color-white);
       padding-top: 4rem; }
+    @media only screen and (max-width: 37.5em) {
+      .newsletter__boxnews .boxnews--floating {
+        display: flex;
+        height: 23rem;
+        flex-direction: column;
+        align-items: center; } }
     .newsletter__boxnews input {
       width: 46rem;
-      height: 5.9rem;
+      height: 59px;
       background-color: var(--color-white-light-1);
       border-color: var(--color-white);
       color: var(--color-white);
@@ -370,9 +374,12 @@ body {
       padding-left: 26px;
       margin-left: 1rem;
       margin-top: 5rem; }
-      @media only screen and (max-width: 87.5em) {
+      .newsletter__boxnews input::placeholder {
+        color: var(--color-white); }
+      @media only screen and (max-width: 37.5em) {
         .newsletter__boxnews input {
-          height: 7.3rem; } }
+          height: 45px;
+          width: 40rem; } }
     .newsletter__boxnews button {
       background-color: var(--color-white-light-2);
       border-color: var(--color-white-light-1);
@@ -385,6 +392,9 @@ body {
       height: 59px;
       padding: 0 57px;
       margin-top: 5rem; }
+      @media only screen and (max-width: 37.5em) {
+        .newsletter__boxnews button {
+          height: 45px; } }
 
 .products {
   display: flex;

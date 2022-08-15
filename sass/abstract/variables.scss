@@ -1,6 +1,8 @@
 // colors
 :root {
   --color-brown-light: #b67453;
+  --color-brown-light-1: #7d4d36;
+  --color-brown-light-2: #c3673c;
 
   --color-black-light-1: #303030;
   --color-black-light-2: #222222;
@@ -11,6 +13,10 @@
   --color-grey-light-1: #8d8787;
   --color-grey-light-2: #817d7d;
 }
+
+$color-brown-light-1: #7d4d36;
+$color-brown-light-2: #c3673c;
+
 $bp-big-largest: 87.5em; // 1400px
 $bp-largest: 75em; // 1200px
 $bp-large: 62.5em; // 1000px
