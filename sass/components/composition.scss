@@ -3,6 +3,7 @@
   // width: 133rem;
   // margin: 0 auto;
 
+
   // background-color: red;
   padding: 10rem 3rem;
 
@@ -20,17 +21,25 @@
       margin-top: 2rem;
       padding: 0 15px;
     }
-    
+
     p {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
       padding: 0 6rem;
       text-align: center;
       @media only screen and (max-width: $bp-big-largest){
-        padding: 0 3rem;
+        padding: 0 2rem;
+      }
+      @media only screen and (max-width: ){
+        // right: 9rem;
+      }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      @media only screen and (max-width: $bp-large){
+        height: 1rem;
       }
     }
   }
 }
-
-

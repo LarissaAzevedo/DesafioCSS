@@ -2,6 +2,9 @@
   // display: flex;
   // padding: 10rem 11rem;
 
+  @media only screen and (max-width: 75em){
+    left: 2rem;
+  }
 
   justify-content: space-between;
   &__product {
@@ -16,6 +19,9 @@
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
       padding: 0 6rem;
+      @media only screen and (max-width: 75em){
+        height: 110rem;
+      }
     }
   }
   img {
