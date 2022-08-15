@@ -47,7 +47,6 @@ ol, ul {
   text-align: center; }
 
 .description-itens__composition > p, .description-itens__product > p {
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -139,7 +138,8 @@ ol, ul {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0;
-  text-transform: none; }
+  text-transform: none;
+  text-align: center; }
 
 body {
   font-family: 'Playfair Display', sans-serif; }
@@ -223,9 +223,6 @@ body {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
       padding: 0 6rem; }
-      @media only screen and (max-width: 75em) {
-        .description-itens__product p {
-          height: 110rem; } }
 
 .header {
   background-image: url(/img/home-slider-1.jpg);
@@ -335,7 +332,7 @@ body {
       color: #b1a9a5; }
 
 .newsletter {
-  height: 61rem;
+  height: 72rem;
   background-image: linear-gradient(to right bottom, rgba(125, 77, 54, 0.3), rgba(195, 103, 60, 0.3)), url(/img/home-parallax-1-1.jpg);
   background-size: cover;
   background-position: center center;
