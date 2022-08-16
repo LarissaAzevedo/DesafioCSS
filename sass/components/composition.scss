@@ -2,7 +2,6 @@
   display: flex;
   padding: 10rem 3rem;
   justify-content: space-between;
-
   @media only screen and (max-width: 75em){
     padding-left: 18rem;
     padding-right: 18rem;
@@ -27,7 +26,6 @@
     align-items: center;
     justify-content: center;
   }
-
   &__composition  {
     display: flex;
     flex-direction: column;
@@ -49,7 +47,6 @@
     @media only screen and (max-width: 50em){ // até 800PX
       width: 39rem;
       margin-bottom: 7rem;
-
       &:not(:last-child) {
         margin-bottom: 6rem;
       }
@@ -59,7 +56,6 @@
       margin-top: 2rem;
       padding: 0 15px;
     }
-
     p {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
@@ -77,7 +73,6 @@
       height: auto;
     }
   }
-
   &__product {
     margin-right: 2rem;
     h4 {
@@ -85,12 +80,10 @@
       margin-top: 2rem;
       padding: 0 15px;
     }
-
     p {
       color: var(--color-grey-light-1);
       margin-top: 1.5rem;
       padding: 0 6rem;
     }
   }
-
 }

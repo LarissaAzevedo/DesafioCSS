@@ -6,11 +6,9 @@
   padding: 0;
   box-sizing: inherit;
 }
-
 html {
   // this defines what 1 rem is
   font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
-
   @media only screen and (max-width: $bp-big-largest){
     font-size: 60%;
   }
@@ -24,10 +22,8 @@ html {
     font-size: 40%;
   }
 }
-
 body {
   box-sizing: border-box;
-   // overflow-y: hidden;
   overflow-x: hidden;
 }
 ol, ul {
