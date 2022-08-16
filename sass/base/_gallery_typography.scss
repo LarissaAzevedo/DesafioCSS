@@ -1,0 +1,27 @@
+.gallery {
+  h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    @media only screen and (max-width: $bp-medium){
+      font-size: 3.8rem;
+    }
+  }
+  h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-transform: none;
+    @media only screen and (max-width: $bp-medium){
+      font-size: 1.8rem;
+    }
+  }
+}
