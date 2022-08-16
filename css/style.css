@@ -361,7 +361,12 @@ body {
   background-image: linear-gradient(to right bottom, rgba(125, 77, 54, 0.3), rgba(195, 103, 60, 0.3)), url(/img/home-parallax-1-1.jpg);
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
   .newsletter__boxnews {
     height: 56px; }
     .newsletter__boxnews h2 {
