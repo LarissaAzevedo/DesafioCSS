@@ -1,0 +1,126 @@
+.header {
+  background-image: url(/img/home-slider-1.jpg);
+  background-attachment: fixed;
+  min-width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  &__logo-text {
+    position: absolute; 
+    top: 3rem;
+    left: 4rem;
+    @media only screen and (max-width: $bp-largest){
+      left: 10rem;
+    }
+  }
+  &__menu-navbar {
+    position: absolute;
+    top: 4.9rem;
+    right: 27rem;
+    @media only screen and (max-width: $bp-largest){
+      right: 18rem;
+    }
+    @media only screen and (max-width: $bp-medium){
+      display: none;
+    }
+    ul > li {
+      float: left;
+      color: var(--color-black-light-1);
+      transition: .3s;
+      &:not(:last-child) {
+        margin-right: 6rem;
+        @media only screen and (max-width: $bp-large){
+          margin-right: 4rem;
+        }
+      }
+      &:hover {
+        color: var(--color-brown-light);
+        cursor: pointer;
+      }
+    }
+  }
+  &__social-links {
+    position: absolute;
+    top: 4.8rem;
+    right: 16rem;
+    @media only screen and (max-width: $bp-largest){
+      right: 9rem;
+    }
+    @media only screen and (max-width: $bp-medium){
+      display: none;
+    }
+    i {
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+  &__market-icon {
+    @media only screen and (max-width: $bp-medium){
+      display: none;
+    }
+    img {
+      position: absolute;
+      top: 4.5rem;
+      right: 10rem;
+      height: 2rem;
+      cursor: pointer;
+      @media only screen and (max-width: $bp-largest){
+        right: 3.9rem;
+      }
+    }
+  }
+  .hamburger {
+    display: none;
+    @media only screen and (max-width: $bp-medium){
+      display: block;
+      position: absolute;
+      top: 1.1rem;
+      right: 2rem;
+      .hamburger-inner {
+        width: 5rem;
+        height: 0.4rem;
+        &::after, &::before {
+          width: 5rem;
+          height: 0.4rem;
+        }
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    width: 40%;
+    height: 50%;
+    @media only screen and (max-width: $bp-big-largest){
+      width: 45%;
+    }
+    @media only screen and (max-width: $bp-largest){
+      width: 50%;
+      left: 15%;
+    }
+    @media only screen and (max-width: $bp-large){
+      width: 63%;
+    }
+    @media only screen and (max-width: $bp-medium){
+      width: 80%;
+    }
+    img {
+      margin-bottom: -4rem;
+      @media only screen and (max-width: $bp-big-largest){
+        height: 8rem;
+      }
+    }
+    h2 {
+      margin-top: -4rem;
+    }
+    p  {
+      margin-top: 3rem;
+      color: rgb(177, 169, 165);
+    }
+  }
+}

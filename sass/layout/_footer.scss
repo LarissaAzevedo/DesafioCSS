@@ -1,0 +1,27 @@
+.boxfooter {
+  background-color: #faf4ed;
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    @media only screen and (max-width: $bp-medium) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    &__information {
+      margin: 10rem 0;
+      width: 27rem;
+      h5 {
+        margin: 0 0 22px;
+      }
+      li {
+        padding: 0 0 17px;
+        a {
+          color: #817d7d !important;
+        }
+      }
+    }
+  }
+}

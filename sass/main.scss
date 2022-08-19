@@ -1,0 +1,19 @@
+@import "abstract/variables";
+// @import "abstract/variables.scss";
+
+@import "base/base";
+@import "base/description-itens_typography";
+@import "base/header_typography";
+@import "base/footer_typography";
+@import "base/newsletter_typography";
+@import "base/products_typography";
+@import "base/body_typography";
+@import "base/gallery_typography";
+
+@import "components/composition";
+
+@import "layout/header";
+@import "layout/newsletter";
+@import "layout/products";
+@import "layout/footer";
+@import "layout/gallery";

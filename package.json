@@ -1,0 +1,23 @@
+{
+  "name": "desafiocss",
+  "version": "1.0.0",
+  "description": "Imagem de Referência https://i.pinimg.com/564x/6a/8a/72/6a8a724100a4fb8c947663787c1f3c62.jpg https://pin.it/2GZ0Lmd",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jailsonv1/DesafioCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jailsonv1/DesafioCSS/issues"
+  },
+  "homepage": "https://github.com/jailsonv1/DesafioCSS#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

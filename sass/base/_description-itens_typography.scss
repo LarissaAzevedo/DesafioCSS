@@ -1,0 +1,17 @@
+.description-itens {
+  &__composition > h4, &__product > h4 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__composition > p, &__product > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+  }
+}
